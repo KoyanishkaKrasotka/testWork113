@@ -10,10 +10,6 @@ import java.util.Properties;
 
 public class Util {
 
-    public static void main(String[] args) {
-        getConnection();
-    }
-
     public static Connection getConnection() {
         Properties properties = new Properties();
         try {
